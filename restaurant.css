@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    width: 100%;
+    height: 100vh;
+}
+header div.header {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+header div.top h1.logo {
+    display: inline-block;
+    color: #92817a;
+}
+header div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 600px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+header div.top li {
+    display: inline-block;
+    margin-right: 50px;
+}
+header div.top li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #363217;
+    transition: .4s ease;
+}
+header div.top li a:hover {
+    color: #92817a;
+    border: 1px solid #363217;
+    border-radius: 6px;
+    padding: 5px 8px 5px 8px;
+}
+header div.top li a:active {
+    color: #363217;
+    border: none;
+}
+
+header div.head {
+    padding-top: 20%;
+    padding-left: 50px;
+    position: absolute;
+}
+header div.head h1 {
+    font-size: 71px;
+    color: #e9be8d;
+}
+header div.head p {
+    color: #92817a;
+    font-size: 25px;
+}
+header div.head button.button1 {
+    border: none;
+    background-color: #363217;
+    color: white;
+    margin-top: 10px;
+    padding: 6px 8px 6px 8px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+header div.head button.button1:hover {
+    color: #363217;
+    background-color: transparent;
+    border: 1px solid #92817a;
+}
+header div.head button.button1:active {
+    color: white;
+    background-color: #363217;
+    border: none;
+}
+header div.header img {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    display: inline-block;
+}
+header div.social {
+    margin-left: 94%;
+    margin-top: 20%;
+    display: inline-block;
+    width: 6%;
+    height: auto%;
+    z-index: 1;
+    position: absolute;
+}
+header div.social img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+header div.social img:hover {
+    width: 32%;
+    box-shadow: 0px 0px 20px #e9be8d;
+}
+
+/* Section show */
+section.show {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #04030ff6;
+}
+section.show div.head {
+    text-align: center;
+}
+section.show div.head h1 {
+    font-size: 40px;
+    color: #e9be8d;
+    margin-bottom: 20px;
+}
+section.show div.head a {
+    border-radius: 6px;
+    border: none;
+    background-color: #e9be8d;
+    padding: 6px 8px 6px 8px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease;
+}
+section.show div.head a:hover {
+    border: 1px solid #363217;
+    background-color: transparent;
+    color: #e9be8d;
+}
+section.show div.head a:active {
+    border: none;
+    background-color: #e9be8d;
+    color: #fff;
+}
+section.show div.products {
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: ;
+}
+section.show div.products div.one {
+    display: inline-block;
+    
+}
+section.show div.products div.one img {
+    width: 40%;
+    opacity: 0.5;
+}
+section.show div.products div.one img:hover {
+    opacity: 1;
+}
+section.show div.products div.one p {
+    color: #92817a;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+section.show div.products div.one button {
+    border-radius: 6px;
+    border: none;
+    background-color: #e9be8d;
+    padding: 6px 8px 6px 8px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: .4s ease;
+}
+section.show div.products div.one button:hover {
+    border: 1px solid #363217;
+    background-color: transparent;
+    color: #e9be8d;
+}
+section.show div.products div.one button:active {
+    border: none;
+    background-color: #e9be8d;
+    color: #fff;
+}
+
+/* Section 0 */
+section.sec {
+    background-color: rgba(128, 128, 128, 0.541);
+}
+section.sec div.sec1 {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.37);
+    background-size: cover;
+    height: 80vh;
+    width: 45%;
+}
+section.sec div.sec1 div.write {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 13%;
+    text-align: right;
+    border-bottom: 2px solid #fff;
+}
+section.sec div.sec1 div.write h1 {
+    font-size: 50px;
+    color: #363217;
+    font-weight: 800;
+}
+section.sec div.sec1 div.write p {
+    font-size: 30px;
+}
+section.sec div.sect {
+    background-image: url(images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 90%;
+    margin-top: 65px;
+    box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.7);
+    background-color: rgb(179, 177, 177);
+    transform: translateX(140px);
+    transition: .4s ease;
+}
+section.sec div.sect:hover {
+    transform: translateX(200px);
+}
+section.sec div.sect2 {
+    float: right;
+    width: 30%;
+    height: 100vh;
+}
+
+/* Section 1 */
+section.section1 div.head {
+    background-color: #04030f;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+section.section1 div.head h1 {
+    color: #e9be8d;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+section.section1 div.head p {
+    color: #92817a;
+    font-weight: 600;
+}
+section.section1 div.service {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+section.section1 div.one {
+    background-color: gray;
+    padding: 140px 20px 90px 20px;
+    box-shadow: 10px 10px 50px 1px rgba(0,0,0);
+    transform: translateY(-50px);
+}
+section.section1 div.one h1 {
+    text-align: center;
+    color: #363217;
+}
+section.section1 div.one p {
+    padding-top: 20px;
+    text-align: center;
+    color: #04030f;
+}
+footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(78, 78, 78);
+}
+footer div.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: ;
+}
+footer h2 {
+    margin-bottom: 40px;
+    margin-left: 19%;
+    color: #e9be8d;
+}
+footer div.links a {
+    display: block;
+    text-decoration: none;
+    color: #92817a;
+    font-size: 20px;
+    transition: .4s ease;
+}
+footer div.links a:hover {
+    text-decoration: underline;
+}
